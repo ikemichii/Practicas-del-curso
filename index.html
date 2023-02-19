@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Create Account</title>
+
+</head>
+
+<body>
+    
+    <form id="Formulario" action="" method="" >
+
+    <div class="contenedor">
+        <div class="cabecera">
+        <fieldset>
+
+            <h1>Create Account</h1>
+            <ul>
+                <li>
+                    <label id="usuario" for="usuario">Nombre:</label>
+                    <input class="input" id="usuario" type="text"required width="300px">
+                </li>
+                
+                <li>
+                    <label id="email" for="email">Email:</label>
+                    <input class="input" id="email" type="text" name="email" required pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/">
+                </li>
+
+                <li>
+                    <label id="Clave" for="Clave">Clave:</label>
+                    <input class="input" id="Clave" type="text" required width="300px">
+                </li>
+
+                <li>
+                    <label id="confirmeclave" for="confirmeclave">Confirme su clave:</label>
+                    <input class="input" id="confirmeclave" type="text" name="confirmeclave"  
+                    pattern="">
+                </li>
+                
+                <li>
+                    <label for="Enviar"></label>
+                    <button type="submit">Enviar</button>
+                </li>
+                
+        </ul>
+    </fieldset>
+    </form>
+    <script src="index.jss"></script>
+
+
+</body>
+
+</html>
